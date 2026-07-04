@@ -39,7 +39,7 @@ async def issue_verify_link(client: Client, message: Message, payload: str):
 
     short_photo = client.messages.get("SHORT_PIC", "")
     short_caption = client.messages.get("SHORT_MSG", "")
-    tutorial_link = getattr(client, 'tutorial_link', "https://t.me/HowToDownloadSnap/2")
+    tutorial_link = getattr(client, 'tutorial_link', "https://t.me/HowToDownloadorvix/2")
     service_link = build_verify_path(client, verify_token, service_token)
     if not service_link:
         client.LOGGER(__name__, client.name).warning("SERVICE_URL not configured, cannot send service verify route link.")
@@ -51,10 +51,10 @@ async def issue_verify_link(client: Client, message: Message, payload: str):
             InlineKeyboardButton("ᴛᴜᴛᴏʀɪᴀʟ •", url=tutorial_link)
         ],
         [
-            InlineKeyboardButton(" • ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ •", url="https://t.me/SnapLoverXBot?start=premium")
+            InlineKeyboardButton(" • ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ •", url="https://t.me/orvixadminBot?start=premium")
         ]
     ])
-    caption = f"{short_caption}\n\n⏱ Verify timer: {getattr(client, 'verify_cooldown', 30)}s"
+    caption = f"{short_caption}\n\n⏱ Powered By @TheOrviX"
 
     if short_photo:
         try:
@@ -76,7 +76,7 @@ async def send_verify_bypass_warning(client: Client, message: Message, attempt_c
     warning_photo = client.messages.get("VERIFY_WARN_PHOTO", client.messages.get("SHORT_PIC", ""))
     warning_text = client.messages.get(
         "VERIFY_WARN_MSG",
-        "⚠️ You are trying to bypass verification.\nWait {seconds}s and use the new link.\nAttempt: {attempt}/2"
+        "⚠️ You are trying to bypass verification.\n Retry With New Link.\nAttempt: {attempt}/2"
     )
     caption = warning_text.format(attempt=attempt_count, seconds=max(seconds_left, 0))
 
@@ -466,7 +466,7 @@ async def request_command(client: Client, message: Message):
         return
 
     if not is_user_premium: 
-        BUTTON_URL = "https://t.me/SnapLoverXBot?start=premium"
+        BUTTON_URL = "https://t.me/OrvixAdminBot?start=premium"
         reply_markup = InlineKeyboardMarkup([
             [InlineKeyboardButton("💎 Upgrade to Premium", url=BUTTON_URL)]
         ])
@@ -519,5 +519,5 @@ async def my_plan(client: Client, message: Message):
             "🔸 Plan: Free\n"
             "🔸 Request: Disabled\n\n"
             "🔓 Unlock Premium to get more benefits\n"
-            "Contact: @SnapLoverXBot"
+            "Contact: @OrvixAdminBot"
         )
