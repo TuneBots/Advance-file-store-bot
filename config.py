@@ -51,7 +51,7 @@ PROTECT = True
 MESSAGES = {
     "START": "<b>›› ʜᴇʏ!!, {first} ~ <blockquote>ʟᴏᴠᴇ ᴘᴏʀɴʜᴡᴀ? ɪ ᴀᴍ ᴍᴀᴅᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ғɪɴᴅ ᴡʜᴀᴛ ʏᴏᴜ aʀᴇ ʟᴏᴏᴋɪɴɢ ꜰᴏʀ.</blockquote></b>",
     "FSUB": "<b><blockquote>›› ʜᴇʏ ×</blockquote>\n  ʏᴏᴜʀ ғɪʟᴇ ɪs ʀᴇᴀᴅʏ ‼️ ʟᴏᴏᴋs ʟɪᴋᴇ ʏᴏᴜ ʜᴀᴠᴇɴ'ᴛ sᴜʙsᴄʀɪʙᴇᴅ ᴛᴏ ᴏᴜʀ ᴄʜᴀɴɴᴇʟs ʏᴇᴛ, sᴜʙsᴄʀɪʙᴇ ɴᴏᴡ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ғɪʟᴇs</b>",
-    "ABOUT": "<b>›› ғᴏʀ ᴍᴏʀᴇ: @TheOrviX \n  \n›› ᴅᴇᴠᴇʟᴏᴘᴇʀ: @SnapLover</b></blockquote>",
+    "ABOUT": "<b>›› ғᴏʀ ᴍᴏʀᴇ: @TheOrviX \n 18+ ᴄᴏɴᴛᴇɴᴛ: @OrvixNetworks \n›› ᴅᴇᴠᴇʟᴏᴘᴇʀ: @PremiumOrvixBot</b></blockquote>",
     "REPLY": "<b>For More Join - @OrvixNetworks</b>",
     "SHORT_MSG": "<b>📊 ʜᴇʏ bro, \n\n‼️ ɢᴇᴛ ᴀʟʟ ꜰɪʟᴇꜱ ɪɴ ᴀ ꜱɪɴɢʟᴇ ʟɪɴᴋ ‼️\n\n ⌯ ʏᴏᴜʀ ʟɪɴᴋ ɪꜱ ʀᴇᴀᴅʏ, ᴋɪɴᴅʟʏ ᴄʟɪᴄᴋ ᴏɴ ᴏᴘᴇɴ ʟɪɴᴋ ʙᴜᴛᴛᴏɴ..</b>",
     "START_PHOTO": "https://i.ibb.co/YBtKqn2H/photo-2026-03-05-12-16-54-7613744424618557456.jpg",
